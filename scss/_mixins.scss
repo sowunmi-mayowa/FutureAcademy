@@ -1,0 +1,16 @@
+@mixin  container-style {
+    padding: 10px 20px;
+    margin: 0 30px;
+}
+
+@mixin anchor-style {
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .3s ease-in;
+    font-weight: 700;
+    cursor: pointer;
+}
+@mixin  image-style {
+    width: 100%;
+    height: 100%;
+}
