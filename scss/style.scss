@@ -223,3 +223,30 @@ nav{
     }
 }
 
+#learning-list{
+    background: $main-color;
+    color: $primary-col;
+    padding: 50px 0px;
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 20% 100%, 100% 100%, 0% 80%, 0% 99%);
+
+
+    .container{
+        @include container-style;
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 5px ;
+        }
+        table{
+            margin: 0px auto;
+        }
+       table, th, td{
+           border: 1px solid $primary-col;
+           border-collapse: collapse;
+       }
+       th, td{
+           padding: 15px;
+       }
+    }
+}
