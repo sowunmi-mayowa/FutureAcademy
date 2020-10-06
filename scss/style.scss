@@ -17,6 +17,7 @@ header{
     position: sticky;
     top: 0;
     z-index: 100;
+    border-bottom: 1px solid black;
 }
 
 
@@ -172,7 +173,7 @@ nav{
 
         .grid-container{
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
             grid-gap: 10px;
             background: white;
             padding-top: 30px;
@@ -221,3 +222,4 @@ nav{
         }
     }
 }
+

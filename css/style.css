@@ -34,6 +34,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 100;
+  border-bottom: 1px solid black;
 }
 
 nav {
@@ -225,8 +226,8 @@ nav .logo-navs .buttons .sign-up:hover {
 #features .container .grid-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: (minmax(350px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-gap: 10px;
   background: white;
   padding-top: 30px;
